@@ -363,7 +363,7 @@ input, textarea, select {
 }
 
 .btn.btn-add:hover:before {
-    background-color: #000000;
+    background-color: none;
 }
 
 .btn.btn-add .icon {
@@ -2634,12 +2634,13 @@ nav .cart-wrapper.open {
 @media (max-width: 767px) {
     .products .row {
         margin: 0;
+        padding: auto;
     }
     .products .container,
     .products .row > div {
-        padding-left: 1px;
-        padding-right: 1px;
-        padding-bottom: 1px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-bottom: 2px;
     }
     .products .btn-add {
         display: none;
@@ -4294,21 +4295,22 @@ nav .cart-wrapper.open {
 */
 .popup-main {
     background: #e6e6e6;
-    text-align: left;
+    text-align: justify;
     width: 100%;
+    height: auto;
     margin: 0px auto;
     position: relative;
     box-shadow: 0 0 20px #000;
+    font-size: 12px;
     /*popup-product-styles*/
 }
 
 .popup-main.popup-main-article img {
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 .popup-main .popup-title {
-  background-color: #343434;
-    color-text: #fff;
     padding: 20px;
     text-align: left;
     font-size: 20px;
@@ -4320,8 +4322,7 @@ nav .cart-wrapper.open {
 
 .popup-main .popup-content {
     background-color: white;
-    padding: 15px;
-    font-size : 12;
+    padding: 20px;
 }
 
 .popup-main .popup-buttons a {

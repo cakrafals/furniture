@@ -1,70 +1,3 @@
-﻿/*!
-    ----------------------------------
-
-    * Mobel Furniture Template Theme
-    * Version - 2.2.0
-    * Copyright (c) 2017 ElaThemes.com
-
-    ----------------------------------
-
-    [Table of contents]
-
-    1. Default body styles
-    2. Page loader
-    3. Headings
-    4. Anchors
-    5. Button styles
-    6. Breadcrumbs
-    7. Checkbox
-    8. Sections
-    9. Header
-    10. Main Header
-    11. Main navigation
-    12. Categories
-    13. Header content
-    14. Blocks
-    15. Sort bar
-    16. Price filter
-    17. Pagination
-    18. Filters
-    19. Products category
-    20. Product page
-    21. Product color buttons
-    22. BLog
-    23. Designer
-    24. Tabs navigation
-    25. Comments
-    26. Wrapper more
-    27. Stretcher
-    28. Scroll to top
-    29. Banner
-    30. Main popup
-    31. Instagram
-    32. Checkout
-    33. Checkout steps
-    34. Login wrapper
-    35. Contact
-    36. Map Info window
-    37. Shortcodes
-    38. Tabsy wrapper
-    39. History
-    40. Intro
-    41. Text blocks
-    42. Quotes
-    43. Team
-    44. Owl-icons
-    45. Footer
-    46. Info icons
-    47. Cards
-    49. Single page
-
-    ----------------------------------
- */
-/*
-    ----------------------------------
-    1. Default body styles
-    ----------------------------------
-*/
 body {
     font-family: "Roboto", sans-serif;
     font-size: 13px;
@@ -2384,6 +2317,7 @@ nav .cart-wrapper.open {
 .products article .image {
     overflow: hidden;
     height: auto;
+    width: 100%;
 }
 
 .products article .image a {
@@ -2392,6 +2326,7 @@ nav .cart-wrapper.open {
 
 .products article .image img {
     width: 100%;
+    height: auto;
 }
 
 .products article .btn-add {
@@ -2792,6 +2727,8 @@ nav .cart-wrapper.open {
 
 .product .info .content .full-image {
     width: 100%;
+    height: auto;
+
 }
 
 .product .info .content h3 {
@@ -3229,11 +3166,13 @@ nav .cart-wrapper.open {
     background-size: cover;
     overflow: hidden;
     height: auto;
+    width: 100%;
 }
 
 .blog article .image img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .blog article .entry {
@@ -4301,7 +4240,7 @@ nav .cart-wrapper.open {
     margin: 0px auto;
     position: relative;
     box-shadow: 0 0 20px #000;
-    font-size: 12px;
+    font-size: 16px;
     /*popup-product-styles*/
 }
 
@@ -4589,6 +4528,8 @@ nav .cart-wrapper.open {
 
 .checkout .cart-block > div.image {
     padding: 0;
+    width: 100%
+    height: auto;
 }
 
 .checkout .cart-block > div.quantity, .checkout .cart-block > div.price {

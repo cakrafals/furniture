@@ -1704,6 +1704,8 @@ nav .cart-wrapper.open {
     padding: 0;
     position: relative;
     overflow: hidden;
+    width: 100%
+    height: auto;
 }
 
 .header-content .item {

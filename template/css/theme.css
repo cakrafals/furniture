@@ -5844,8 +5844,8 @@ footer a:hover {
 }
 
 footer .footer-showroom {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     margin-bottom: 15px;
     border-bottom: 1px solid #222;
 }
@@ -5860,25 +5860,25 @@ footer .footer-showroom .call-us {
 
 @media (min-width: 768px) {
     footer .footer-showroom {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-bottom: 40px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
     }
 }
 
 @media (min-width: 992px) {
     footer .footer-showroom {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin-bottom: 60px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
     }
 }
 
 @media (min-width: 1200px) {
     footer .footer-showroom {
-        padding-top: 60px;
-        padding-bottom: 60px;
-        margin-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 }
 

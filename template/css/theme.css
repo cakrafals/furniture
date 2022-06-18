@@ -4076,6 +4076,7 @@ nav .cart-wrapper.open {
     position: absolute;
     z-index: 9;
     font-size: initial;
+    text-align: justify;
     padding: 20px 10px;
     width: 100%;
     left: 0;
@@ -4112,7 +4113,7 @@ nav .cart-wrapper.open {
 @media (min-width: 992px) {
     .stretcher-wrapper .stretcher {
         height: 500px;
-        white-space: nowrap;
+        white-space: none;
     }
     .stretcher-wrapper.stretcher-wrapper-frontpage .stretcher {
         height: 100vh;
@@ -5212,7 +5213,7 @@ nav .cart-wrapper.open {
 
 .tabsy-wrapper .tabsy .tabsy-links figure figcaption .desc {
     display: none;
-    color: white;
+    color: #000;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
     -webkit-transition: all 0.3s;

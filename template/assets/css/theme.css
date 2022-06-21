@@ -13,6 +13,7 @@
   font-size: 14px;
 }
 
+/*
 .body {
     font-family: "Roboto", sans-serif;
     font-size: 13px;
@@ -27,7 +28,7 @@
     }
 }
 
-.body .wrapper {
+body .wrapper {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -43,7 +44,7 @@
         width: 100% !important;
     }
 }
-
+*/
 /*
     ----------------------------------
     2. Page loader
